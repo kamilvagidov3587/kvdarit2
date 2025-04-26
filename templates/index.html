@@ -527,7 +527,7 @@
                                             locationStatus.classList.remove('alert-warning');
                                             locationStatus.classList.add('alert-danger');
                                             locationStatus.classList.add('location-restricted');
-                                            locationStatus.innerHTML = `<p><i class="fas fa-exclamation-triangle me-2"></i>К сожалению, розыгрыш доступен ТОЛЬКО для жителей Карабадахкента (включая все районы, посёлки и сёла).<br>Ваше текущее местоположение: ${data.city}.</p>`;
+                                            locationStatus.innerHTML = `<p><i class="fas fa-exclamation-triangle me-2"></i>К сожалению, розыгрыш доступен ТОЛЬКО для жителей Махачкалы и Каспийска (включая все районы, посёлки и сёла).<br>Ваше текущее местоположение: ${data.city}.</p>`;
                                             
                                             // Отображаем информацию о городе пользователя (запрещенный город)
                                             const userCityDisplay = document.getElementById('user-city-display');
